@@ -1,0 +1,58 @@
+h4{
+    color: red;
+}
+
+a{
+    text-align: center;
+}
+
+a.active{
+    color: blue;
+    font-weight: bold;
+    background-color: yellow;
+}
+.custab{
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5% 0;
+    box-shadow: 3px 3px 2px #ccc;
+    transition: 0.5s;
+    }
+.custab:hover{
+    box-shadow: 3px 3px 0px transparent;
+    transition: 0.5s;
+    }
+    
+tr>th {
+  font-family: Arial;
+  padding: 23px;
+  border-radius:  5px 5px 0 0;
+  border-bottom: 3px solid #b1e153;
+
+  text-align: center;
+}
+
+tr>td:nth-child(1) {
+    text-align: left;
+    padding: 15px;
+    border: 0px;
+
+
+}
+tr>td:nth-child(2) {
+    text-align: center;
+    padding: 15px;
+    border: 0px;
+
+
+}
+tr>td:nth-child(3) {
+    text-align: center;
+    padding: 15px;
+    border: 0px;
+
+ 
+}              
+tr>th:nth-child(1){
+  text-align: left;
+}    
